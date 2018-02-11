@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+/* footer design */
+footer{
+	background-color: black;
+	color: ghostwhite;
+	text-align: center;
+	padding: 1em;
+}
+
+h4{ 
+padding: 1em;
+text-align: left;
+}
