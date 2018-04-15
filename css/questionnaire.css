@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Create four equal columns to float next to each other */
+
+.column{
+	float:left;
+	width:25%;
+	margin-bottom: 10px;
+	height:auto;
+}
+.column2{
+	float:left;
+	margin-right: 150px;
+}
+
+.row2{
+	width:100%;
+	margin-right:30px;
+	margin-bottom:20px;
+}
+h1{
+	margin-top: 100px;
+}
+
+p{
+	margin-bottom: 2px;
+	margin-top: 20px;
+}
+
+.container{
+	padding-left: 35px;
+	margin-top:50px;
+}
+
+.radio-inline{
+	margin-right: 20px;
+	margin-left:25px;
+}
+
+.row:after{
+	content:"";
+}
+
+.footer{
+	background-color: black;
+	color: ghostwhite;
+	text-align: center;
+	padding: 1%;
+	margin-top: 70px;
+	
+}

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#feature{
+	margin-left: 2%;
+	width:1200px;
+	height:300px;
+}
+.container{
+	margin-top: 50px;
+}
+p{margin-top: 5%}
+
+table, th, td{
+	border: 1px solid rgba(71,71,71,1.00);
+	margin-top:350px;
+		
+}
+
+th, td{
+	margin-top:300px;
+	margin-bottom: 1500;
+	padding-bottom: 150px;
+	text-align:left;
+}
+
+.column1of2, .column2of2{
+	width: 500px;
+	float:left;
+	margin:10px;
+}
+
+h5{
+	text-decoration: underline;
+}
+
+
+#group2{
+margin-left:-20px!important;
+}
+
+.container1{
+	margin-bottom: 100px;
+	padding-bottom: 200px;
+	align-content: center;
+	padding-left: 70px;
+}
+
+.product{
+	padding-left: 70px;
+	margin-top: -60px;
+}
+.footer{
+	background-color: black;
+	color:ghostwhite;
+	text-align:center;
+	padding:1%;
+	margin-top:30px;
+}

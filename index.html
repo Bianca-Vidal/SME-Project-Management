@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class= "container-fluid">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#"> SME Project Managment</a>
@@ -22,17 +22,63 @@
 			<li><a href="agile.html">Agile (SCRUM)</a></li>
 			<li><a href="prince2.html">Prince2 </a></li>
 		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="Questionnaire.html">Questionnaire</a></li>
+		</ul>
+		
 	</div>
 </nav> 
-
+<div class="container">
 <h1> SME Project Managment</h1>
-
+<div id="content">
+<div id="feature">
+<picture>
+<source media="(min-width:940px)" srcset="img/projectmanagement.jpg">
+<source media="(min-width:650px)" srcset="img/projectmanagement.jpg">
+<img src="img/projectmanagement.jpg" alt="project management" style="width:1200px; height: 450px; margin-left:-50px; margin-top: -30px">
+</picture>
+</div>
 <h2>Choosing the right Project Management Methodolgy For Your Business</h2>
 
-<h4> As an SME resources are typically limited. Where SME's are multiskilled taking on more than one job in comparison to the larger organisations. Choosing the right type of Project Management Methodolgy (PMM) is critical. This website will look to help you choose one that works well for your business and working with your business, so that you can actually focus on your business. We have looked at three different methodolgies which research show are benefial to SME's and look to give you the important facts helping you choose the PMM best suitable for your business.</h4>
+<p>Since 2000 SME's have increased by 59% whereby small business employers contribute to 19% and medium contibute to 24%, <cite>(Business Population Estimate, 2016)</cite>. A mintel report found that SME's account for 99.9% of businesses within the private sector of which contibuted 67% of total employment and turnover of 57%. These statics show the social responsibity contribution within societies. Such large numbers has not been reflected  implementing project managment strategies to succh businesses increasing their success. </p>
+
+<p>As an SME resources are typically limited. Where SME's are multiskilled taking on more than one job in comparison to the larger organisations. Choosing the right type of Project Management Methodolgy (PMM) is critical. This website will look to help you choose one that works well for your business and working with your business, so that you can actually focus on your business. We have looked at three different methodolgies which research show are benefial to SME's and look to give you the important facts helping you choose the PMM best suitable for your business.</p>
+
+<div class="row">
+<div class="article column1">
+	<h4>Waterfall</h4>
+	<img src="Img/waterfall.jpg" style="width:95%; margin-left: 2%;">
+	<p> Traditionally used for big project however can be advantageous for service SME's to incorporate this method in their business <a href="waterfall.html">Read More...</a></p>
+</div>
+
+<div class="article column2">
+	<h4>Agile (SCRUM)</h4>
+	<img src="Img/Scrum2.jpg" style="width: 75%;  padding-left: 40px">
+	<p style="height-15px"> This is used for those that have a team where<a href="agile.html">Read More...</a></p>
+</div>
+</div><!-- end of row 1 Home Page-->
 
 
+<div class="row">
+<div class="article column3">
+	<h4>Prince2</h4>
+	<img src="Img/prince2.jpg" style="width: 85%; padding-left: 20px">
+	<p> Prince2 is used on multiple different industries worldwide. Find out to see how Prince2 can be advantageous to your business.<a href="prince2.html">Read More...</a></p>
+</div>
 
-<footer> &copy; University of West London. All Rights Reserver 2018!</footer>
+<div class="article column4">
+	<h4>Questionnaire</h4>
+	<img src="Img/questionmark.jpg" style="width: 85%; padding-left: 20px">
+	<p> Still unsure? Take this questionnaire to find out which PMM is most suitable for your business<a href="Questionnaire.html">Read More...</a></p>
+</div>
+
+</div><!--end or 2nd row-->
+
+
+</div><!-- end of content-->
+</div> <!--end of container-->
+
+
+<div class="footer"> &copy; University of West London. All Rights Reserved 2018!</div>
 </body>
 </html>
