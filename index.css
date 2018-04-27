@@ -33,7 +33,7 @@ h2{ z-index: 10;}
 	margin-top: 50px;
 }
 
-img:first-child{
+#img{
 	align-content: center;
 	float: left;
 	padding: 2%;
