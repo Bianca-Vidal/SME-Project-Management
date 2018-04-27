@@ -1,14 +1,55 @@
 @charset "UTF-8";
 /* CSS Document */
 /* footer design */
-footer{
+.footer{
 	background-color: black;
 	color: ghostwhite;
 	text-align: center;
-	padding: 1em;
+	padding: 1%;
+	margin-top: 30px;
+	
 }
 
+
+
 h4{ 
-padding: 1em;
-text-align: left;
+
+text-align: center;
+padding-top:5px;	
+}
+
+h2{ z-index: 10;}
+
+.column1, .column2, .column3, .column4{
+	width: 45%;
+	float:left;
+	margin: 1%;
+	border: thin;
+	background-color:lightgray;
+	border-color: black;
+}
+
+.container{
+	margin-top: 50px;
+}
+
+img:first-child{
+	align-content: center;
+	float: left;
+	padding: 2%;
+	width:55%;
+}
+/*#feature{align-content: center;
+padding: 0 10 1 10;}
+*/
+.article{
+	height:30em;
+	margin-bottom: 2em;
+	background-color: #efefef !important;
+	padding-left: 2%;
+}
+
+#feature{
+	float: left;
+	background-color:white;
 }
